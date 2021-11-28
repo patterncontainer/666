@@ -562,7 +562,7 @@ footer>p{padding: 3rem 0 3rem 0;}
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    padding-bottom: 52rem;    
+                    padding-bottom: 48rem;    
         }
         .aboutMovie>div:nth-child(1){width: 100%;
                                      max-width: 350px;
@@ -615,6 +615,7 @@ footer>p{padding: 3rem 0 3rem 0;}
         }
         .aboutMovie>div:nth-child(2)>div>button{padding: 0;
                                                 margin: 0;
+                                                font-size: 1.5rem;
         }
         .aboutMovie>div:nth-child(2)>a{color: white;
                                        font-size: 1rem;
@@ -659,6 +660,9 @@ footer>p{padding: 3rem 0 3rem 0;}
         .question>div:nth-child(2)>ul:nth-child(1)>li:nth-child(1){padding: 0;}
         .question>div:nth-child(2)>ul:nth-child(2)>li:nth-child(1){padding: 0;}
         .question>div:nth-child(2)>ul:nth-child(3)>li:nth-child(1){padding: 0;}
+        .question>div:nth-child(2)>ul:nth-child(1)>li:nth-child(2){padding: 0;}
+        .question>div:nth-child(2)>ul:nth-child(2)>li:nth-child(2){padding: 0;}
+        .question>div:nth-child(2)>ul:nth-child(3)>li:nth-child(2){padding: 0;}
         .question>div:nth-child(2)>ul:nth-child(1)>li:nth-child(3){padding: 0;}
         .question>div:nth-child(2)>ul:nth-child(2)>li:nth-child(3){padding: 0;}
         .question>div:nth-child(2)>ul:nth-child(3)>li:nth-child(3){padding: 0;}
