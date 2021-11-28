@@ -51,6 +51,9 @@ header>div>ul>li>a{display: flex;
                    margin: 5rem 0 5rem 0;     
 }
 header>div>ul>li>a>p{margin-right: 1.5rem;}
+header>div>ul>li>a>p:hover{color: #713bda;
+                           font-weight: bolder;                       
+}
 header div a p{color: white;
                font-size: 1.5rem;
                font-weight: lighter; 
@@ -62,7 +65,9 @@ header>div>a{display: flex;
              opacity: 37%;
 }
 header>div>a>p{margin-right: 1.5rem;}
-
+header>div>a>p:hover{color: white;
+                     font-weight: bolder;   
+}
 
 
 .mainVisual{color: white;
@@ -102,6 +107,21 @@ header>div>a>p{margin-right: 1.5rem;}
                             display: flex;
                             align-items: center;    
 }
+.mainBtns>li:nth-child(2)>p{background-color: white;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            border-radius: 25px;
+                            padding: 1rem 2rem 1rem 2rem;
+}
+.mainBtns>li:nth-child(2)>p>input{border: none;
+                                  margin-right: 2rem;
+                                  padding: 1rem 1rem 1rem 0;
+}
+.mainBtns>li:nth-child(2)>p>a{display: flex;
+                                    align-items: center;
+                                  
+}
 .mainBtns>li:nth-child(2)>a:nth-child(3){color: white;
                                          font-size: 1.9rem;                                        
 }
@@ -140,6 +160,13 @@ header>div>a>p{margin-right: 1.5rem;}
               display: flex;
               justify-content: center;
               align-items: center;  
+}
+.newTag>ul>li:hover{background-color: #713bda;
+                    border: 1px solid #713bda;
+}
+.newTag>ul>li>a:hover{background-color: #713bda;
+                      color: white;
+                      font-weight: bolder;    
 }
 .newTag>ul>li>a{color: #808693;
                 font-size: 1.7rem;
@@ -367,6 +394,10 @@ header>div>a>p{margin-right: 1.5rem;}
                                    font-size: 1.5rem;
                                    font-weight: 350;                   
 }
+.question>div:nth-child(2)>ul>li>a:hover{background-color: white;
+                                         color: #713bda;
+                                         font-weight: bolder; 
+}
 
 
 .tag{width: 117rem;
@@ -388,6 +419,10 @@ header>div>a>p{margin-right: 1.5rem;}
              font-size: 1.7rem;
              padding: 1rem 1.5rem 1rem 1.5rem;
              border-radius: 25px;     
+}
+.tag>ul>li>a:hover{background-color: #713bda;
+                   border: 1px solid #713bda;
+                   color: white;     
 }
 
 footer{width: 100%;
