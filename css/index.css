@@ -74,6 +74,9 @@ header>div>a>p:hover{color: white;
             width: 117rem;
             margin: auto;
 }
+.mLogo{display: none;}
+.mBtns{display: none;}
+.m666{display: none;}
 .mainBtns{width: 117rem;
           margin: auto;
           padding-top: 4rem;
@@ -127,18 +130,21 @@ header>div>a>p:hover{color: white;
 }
 .mainBtns>li:nth-child(2)>a:nth-child(3)>img{margin-right: 1rem;}
 .mainImage{width: 117rem;
+           height: 44rem;
            margin: auto;
            background-image: url(../img/mainVisual.png);
            background-repeat: no-repeat;
+           color: white;
 }
-.mainImage>li{padding: 20.25rem 0 0 5.8rem;}
-.mainImage>li>p:nth-child(1){font-size: 2rem;
-                                padding-bottom: 2.3rem;
+.mainImage>p:nth-child(1){font-size: 2rem;
+                          padding: 21rem 0 2.3rem 5rem;
 }
-.mainImage>li>p:nth-child(2){font-size: 3rem;}
-.mainImage>li>p:nth-child(3){font-size: 1.5rem;
-                                opacity: 58%;
-                                padding: 3.7rem 0 7.3rem 0;
+.mainImage>p:nth-child(2){font-size: 3rem;
+                          padding-left: 5rem;
+}
+.mainImage>p:nth-child(3){font-size: 1.5rem;
+                          opacity: 58%;
+                          padding: 3.7rem 0 7.3rem 5rem;
 }
 
 
@@ -295,9 +301,12 @@ header>div>a>p:hover{color: white;
                                   padding-bottom: 3.75rem;
                                   text-align: center;
 }
-.aboutMovie>div:nth-child(2)>button{width: 9.4rem;
-                                    margin-bottom: 1.2rem;
-                                    font-size: 1.7rem;    
+.aboutMovie>div:nth-child(2)>div>button{width: 9.4rem;
+                                        margin-bottom: 1.2rem;
+                                        font-size: 1.7rem;
+                                        display: flex;
+                                        flex-direction: column; 
+                                        align-items: center;   
 }
 .aboutMovie>div:nth-child(2)>a{font-size: 1.7rem;
                                color: #808693;
@@ -451,4 +460,190 @@ footer>div{width: 12rem;
 }
 footer>p{padding: 3rem 0 3rem 0;}
 
+
+
+@media screen and (max-width: 560px){
+        body{width: 100%;
+             max-width: 560px;
+             font-size: 4px;
+             display: flex;
+             flex-direction: column;   
+        }
+        section{width: 100%;
+                max-width: 560px;
+                margin: auto;
+                display: flex;
+                flex-direction: column;
+        }
+        .mLogo{display: block}
+        section>header{display: none;}
+
+        .mainPage{width: 100%;
+                  max-width: 560px;
+                  margin: auto;
+        }
+        .mainVisual{width: 100%;
+                    max-width: 560px;
+                    margin: auto;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    padding: 6rem 0 6rem 0;
+        }
+        .m666{display: block;
+              font-size: 3rem;
+              padding-right: 5rem;
+        }
+        .mBtns{display: flex;
+                align-items: center;
+        }
+        .mBtns>a{display: flex;
+                 flex-direction: column;
+                 justify-content: space-between;
+                 width: 4rem;
+                 height: 3rem;
+        }
+        .mBtns>a>p{width: 4rem;
+                   height: 0.5rem;
+                   background-color: white;
+        }
+        .mainBtns{display: none;}
         
+
+        .mainImage{width: 100%;
+                   max-width: 480px;
+                   height: 352px;
+                   background-size: cover;
+                   border-radius: 30px;
+                   background-position: 62% 0%;
+        }
+
+        .newTag{display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                max-width: 500px;
+        }
+        .newTag>ul{display: flex;
+                   flex-wrap: wrap;
+                   padding-top: 3rem;
+        }
+        .newTag>ul>li:nth-child(6){display: none;}
+        .newTag>ul>li:nth-child(7){display: none;}
+        .newTag>ul>li:nth-child(8){display: none;}
+
+        .movieThumbnail{width: 100%;
+                        max-width: 560px;
+                        margin: auto;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+        }
+        .movieThumbnail>div{display: flex;
+                            flex-direction: column;
+                            padding-bottom: 6rem;
+        }
+        .movieThumbnail>span{display: none;}
+
+        .aboutMovie{width: 100%;
+                    max-width: 490px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    padding-bottom: 70rem;    
+        }
+        .aboutMovie>div:nth-child(1){width: 100%;
+                                     max-width: 490px;
+                                     margin-bottom: 5rem;   
+        }
+        .aboutMovie>div:nth-child(1)>ul:nth-child(1){display: flex;
+                                                     flex-wrap: wrap-reverse;
+                                                     flex-direction: column;
+                                                     align-items: center;
+                                                     width: 100%;
+                                                     max-width: 490px;   
+        }
+        .aboutMovie>div:nth-child(1)>ul:nth-child(1)>li{display: flex;
+                                                        align-items: center;
+                                                        flex-direction: column;
+        }
+        .aboutMovie>div:nth-child(1)>ul:nth-child(1)>li:nth-child(1)>span{font-size: 1.8rem;}
+        .aboutMovie>div:nth-child(1)>ul:nth-child(1)>li:nth-child(2)>p{padding-top: 3rem;}
+        .aboutMovie>div:nth-child(1)>ul:nth-child(1)>li:nth-child(2)>p>img{width: 35rem;
+                                                                           height: 35rem;     
+                                                                
+        }
+        .aboutMovie>div:nth-child(1)>ul:nth-child(2){display: flex;
+                                                     justify-content: space-between;
+                                                     width: 100%;
+                                                     max-width: 450px;
+                                                     padding-bottom: 3rem;
+        }
+        .aboutMovie>div:nth-child(1)>ul:nth-child(2)>li:nth-child(2)>p>img{width: 3.3rem;
+                                                                           height: 3rem;     
+        }
+        .aboutMovie>div:nth-child(1)>ul:nth-child(2)>li:nth-child(2)>p{font-size: 2.4rem;
+                                                                       line-height: 3rem;
+                                                                       text-align: center;
+                                                                       padding-left: 0.5rem;
+        }
+
+        .aboutMovie>div:nth-child(2){width: 100%;
+                                     max-width: 300px;   
+        }
+        .aboutMovie>div:nth-child(2)>div{display: flex;
+                                         justify-content: space-between;
+                                         width: 170px;   
+        }
+        .aboutMovie>div:nth-child(2)>a{color: white;
+                                       font-size: 2rem;
+                                       padding: 3rem 0 3rem 0;         
+        }
+
+
+        .comicThumbnail{width: 100%;
+                        max-width: 560px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;        
+        }
+        .comicThumbnail>span{display: none;}
+        .comicThumbnail>div{display: flex;
+                            flex-direction: column;    
+        }
+
+
+        .question{width: 100%;
+                  max-width: 560px;
+                  margin: auto;
+        }
+        .question>div{width: 100%;
+                      max-width: 480px;
+                      margin: auto;  
+        }
+        .question>div:nth-child(2){display: flex;
+                                   flex-direction: column;     
+        }
+        .question>div:nth-child(2)>ul{width: 100%;
+                                      max-width: 450px;
+                                      margin: auto;  
+        }
+        
+
+        .tag{width: 100%;
+             max-width: 480px;
+             margin: auto;   
+        }
+        .tag>h2{text-align: center;}
+
+
+        footer{width: 100%;
+                max-width: 560px;
+                margin: auto;
+        }
+        footer>ul{width: 100%;
+                   max-width: 480px;
+                   margin: auto;
+        }
+}
