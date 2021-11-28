@@ -4,10 +4,7 @@ h1,h2,h3,h4,h5,p,div,ul,section,img,a{margin: 0; padding: 0;}
 li{list-style: none; margin: 0; padding: 0;}
 a{text-decoration: none; color: black;}
 
-body{width: 100%;
-     margin: auto;   
-     max-width: 1920px;   
-     min-height: 100vh; 
+body{min-height: 100vh; 
      background: #262c3a;
 }
 section{width: 100%;
@@ -17,13 +14,11 @@ section{width: 100%;
         display: flex;
         background: #262c3a;
 }
-section>header{width: 26rem;
-               min-height: 100vh; 
-}
-.mainPage{width: calc(100vw - 30rem);
-          min-height: 100vh;
+section>header{width: 35rem;}
+.mainPage{width: calc(1920px - 35rem);
           display: flex;
-          flex-wrap: wrap;
+          flex-direction: column;
+          margin-left: 5rem;
 }
 header>h1{width: 13.5rem;
           margin: auto;
@@ -466,9 +461,7 @@ footer>p{padding: 3rem 0 3rem 0;}
         body{width: 100%;
              max-width: 430px;
              margin: auto;
-             font-size: 4px;
-             display: flex;
-             flex-direction: column;   
+             font-size: 4px;   
         }
         section{width: 100%;
                 max-width: 430px;
