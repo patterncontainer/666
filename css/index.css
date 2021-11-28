@@ -643,23 +643,27 @@ footer>p{padding: 3rem 0 3rem 0;}
                       margin: auto;  
         }
         .question>div:nth-child(2){display: flex;
-                                   flex-direction: column;     
+                                   flex-direction: column;
+                                   padding: 3rem 2rem 3rem 2rem;   
         }
         .question>div:nth-child(2)>ul{width: 100%;
-                                      max-width: 350x;
+                                      max-width: 300x;
                                       margin: auto;
-                                      padding: 2rem 1rem 2rem 1rem;  
+                                      display: flex;
+                                      flex-wrap: wrap;
+                                      justify-content: space-between;
+                                      padding: 0;  
         }
+        .question>div:nth-child(2)>ul:nth-child(2){padding: 2rem 0 2rem 0;}
+        .question>div:nth-child(2)>ul:nth-child(1)>li:nth-child(1){padding: 0;}
+        .question>div:nth-child(2)>ul:nth-child(2)>li:nth-child(1){padding: 0;}
+        .question>div:nth-child(2)>ul:nth-child(3)>li:nth-child(1){padding: 0;}
+        .question>div:nth-child(2)>ul:nth-child(1)>li:nth-child(3){padding: 0;}
+        .question>div:nth-child(2)>ul:nth-child(2)>li:nth-child(3){padding: 0;}
+        .question>div:nth-child(2)>ul:nth-child(3)>li:nth-child(3){padding: 0;}
         .question>div:nth-child(2)>ul>li>p{font-size: 1rem;}
         .question>div:nth-child(2)>ul>li>span{font-size: 0.6rem;}
-        .question>div:nth-child(2)>ul>li>a{font-size: 0.5rem;}
-        .question>div:nth-child(2)>ul>li:nth-child(3){padding-left: 2rem;}
-        .question>div:nth-child(2)>ul>li:nth-child(1){padding-right: 2rem;
-                                                      padding-left: 1.6rem;  
-        }
-        .question>div:nth-child(2)>ul>li:nth-child(2){padding-right: 1.5rem;
-                                                      padding-left: 1.5rem;  
-        }
+        .question>div:nth-child(2)>ul>li>a{font-size: 0.5rem;} 
         .question>div:nth-child(2)>ul:nth-child(4){display: none;}
 
         .tag{width: 100%;
