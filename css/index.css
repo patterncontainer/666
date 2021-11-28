@@ -462,16 +462,16 @@ footer>p{padding: 3rem 0 3rem 0;}
 
 
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 430px){
         body{width: 100%;
-             max-width: 375px;
+             max-width: 430px;
              margin: auto;
              font-size: 4px;
              display: flex;
              flex-direction: column;   
         }
         section{width: 100%;
-                max-width: 375px;
+                max-width: 430px;
                 margin: auto;
                 display: flex;
                 flex-direction: column;
@@ -481,11 +481,11 @@ footer>p{padding: 3rem 0 3rem 0;}
         section>header{display: none;}
 
         .mainPage{width: 100%;
-                  max-width: 375px;
+                  max-width: 430px;
                   margin: auto;
         }
         .mainVisual{width: 100%;
-                    max-width: 375px;
+                    max-width: 430px;
                     margin: auto;
                     display: flex;
                     justify-content: space-around;
@@ -549,7 +549,7 @@ footer>p{padding: 3rem 0 3rem 0;}
         .newTag>ul>li:nth-child(8){display: none;}
 
         .movieThumbnail{width: 100%;
-                        max-width: 375px;
+                        max-width: 430px;
                         margin: auto;
                         display: flex;
                         flex-direction: column;
@@ -562,7 +562,7 @@ footer>p{padding: 3rem 0 3rem 0;}
         .movieThumbnail>span{display: none;}
 
         .aboutMovie{width: 100%;
-                    max-width: 375px;
+                    max-width: 430px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
@@ -623,7 +623,7 @@ footer>p{padding: 3rem 0 3rem 0;}
 
 
         .comicThumbnail{width: 100%;
-                        max-width: 375px;
+                        max-width: 430px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;        
@@ -635,7 +635,7 @@ footer>p{padding: 3rem 0 3rem 0;}
 
 
         .question{width: 100%;
-                  max-width: 375px;
+                  max-width: 430px;
                   margin: auto;
         }
         .question>div{width: 100%;
@@ -693,7 +693,7 @@ footer>p{padding: 3rem 0 3rem 0;}
 
 
         footer{width: 100%;
-                max-width: 375px;
+                max-width: 430px;
                 margin: auto;
         }
         footer>ul{width: 100%;
