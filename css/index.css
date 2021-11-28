@@ -462,16 +462,16 @@ footer>p{padding: 3rem 0 3rem 0;}
 
 
 
-@media screen and (max-width: 414px){
+@media screen and (max-width: 375px){
         body{width: 100%;
-             max-width: 414px;
+             max-width: 375px;
              margin: auto;
              font-size: 4px;
              display: flex;
              flex-direction: column;   
         }
         section{width: 100%;
-                max-width: 414px;
+                max-width: 375px;
                 margin: auto;
                 display: flex;
                 flex-direction: column;
@@ -481,16 +481,16 @@ footer>p{padding: 3rem 0 3rem 0;}
         section>header{display: none;}
 
         .mainPage{width: 100%;
-                  max-width: 414px;
+                  max-width: 375px;
                   margin: auto;
         }
         .mainVisual{width: 100%;
-                    max-width: 414px;
+                    max-width: 375px;
                     margin: auto;
                     display: flex;
                     justify-content: space-around;
                     align-items: center;
-                    padding: 6rem 0 6rem 0;
+                    padding: 4rem 0 6rem 0;
         }
         .m666{display: block;
               font-size: 2.5rem;
@@ -511,34 +511,45 @@ footer>p{padding: 3rem 0 3rem 0;}
         
 
         .mainImage{width: 100%;
-                   max-width: 350px;
+                   max-width: 320px;
                    margin: auto;
                    height: 370px;
                    background-size: cover;
                    border-radius: 30px;
                    background-position: 62% 0%;
+                   display: flex;
+                   align-items: center;
+                   flex-direction: column;
         }
-        .mainImage>p:nth-child(1){padding-top: 25rem;}
+        .mainImage>p:nth-child(1){padding: 0;
+                                  padding-top: 29rem;
+        }
+        .mainImage>p:nth-child(2){padding: 1.5rem 0 1.5rem 0;}
+        .mainImage>p:nth-child(3){font-size: 1rem;
+                                  padding: 0 0 5rem 0;
+        }
 
         .newTag{display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
                 width: 100%;
-                max-width: 370px;
+                max-width: 350px;
                 margin: auto;
         }
         .newTag>ul{display: flex;
                    flex-wrap: wrap;
-                   align-items: center;
+                   justify-content: space-around;
                    padding-top: 3rem;
         }
-        .newTag>ul>li{margin-bottom: 2rem;}
+        .newTag>ul>li{margin-bottom: 2rem;
+                      padding: 0;  
+        }
+        .newTag>ul>li:nth-child(7){display: none;}
         .newTag>ul>li:nth-child(8){display: none;}
-        .newTag>ul>li:nth-child(5){margin-left: 6rem;}
 
         .movieThumbnail{width: 100%;
-                        max-width: 414px;
+                        max-width: 375px;
                         margin: auto;
                         display: flex;
                         flex-direction: column;
@@ -551,14 +562,14 @@ footer>p{padding: 3rem 0 3rem 0;}
         .movieThumbnail>span{display: none;}
 
         .aboutMovie{width: 100%;
-                    max-width: 414px;
+                    max-width: 375px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
                     padding-bottom: 52rem;    
         }
         .aboutMovie>div:nth-child(1){width: 100%;
-                                     max-width: 350px;
+                                     max-width: 320px;
                                      margin-bottom: 5rem;   
         }
         .aboutMovie>div:nth-child(1)>ul:nth-child(1){display: flex;
@@ -566,13 +577,13 @@ footer>p{padding: 3rem 0 3rem 0;}
                                                      flex-direction: column;
                                                      align-items: center;
                                                      width: 100%;
-                                                     max-width: 350px;   
+                                                     max-width: 320px;   
         }
         .aboutMovie>div:nth-child(1)>ul:nth-child(1)>li{display: flex;
                                                         align-items: center;
                                                         flex-direction: column;
         }
-        .aboutMovie>div:nth-child(1)>ul:nth-child(1)>li:nth-child(1)>span{font-size: 1.4rem;}
+        .aboutMovie>div:nth-child(1)>ul:nth-child(1)>li:nth-child(1)>span{font-size: 1rem;}
         .aboutMovie>div:nth-child(1)>ul:nth-child(1)>li:nth-child(2)>p{padding-top: 3rem;}
         .aboutMovie>div:nth-child(1)>ul:nth-child(1)>li:nth-child(2)>p>img{width: 15rem;
                                                                            height: 15rem;     
@@ -581,7 +592,7 @@ footer>p{padding: 3rem 0 3rem 0;}
         .aboutMovie>div:nth-child(1)>ul:nth-child(2){display: flex;
                                                      justify-content: space-between;
                                                      width: 100%;
-                                                     max-width: 350px;
+                                                     max-width: 320px;
                                                      padding-bottom: 3rem;
         }
         .aboutMovie>div:nth-child(1)>ul:nth-child(2)>li{padding: 0 1.5rem 0 1.5rem;}
@@ -612,7 +623,7 @@ footer>p{padding: 3rem 0 3rem 0;}
 
 
         .comicThumbnail{width: 100%;
-                        max-width: 414px;
+                        max-width: 375px;
                         display: flex;
                         flex-direction: column;
                         align-items: center;        
@@ -624,11 +635,11 @@ footer>p{padding: 3rem 0 3rem 0;}
 
 
         .question{width: 100%;
-                  max-width: 414px;
+                  max-width: 375px;
                   margin: auto;
         }
         .question>div{width: 100%;
-                      max-width: 350px;
+                      max-width: 320px;
                       margin: auto;  
         }
         .question>div:nth-child(2){display: flex;
@@ -639,8 +650,8 @@ footer>p{padding: 3rem 0 3rem 0;}
                                       margin: auto;
                                       padding: 2rem 1rem 2rem 1rem;  
         }
-        .question>div:nth-child(2)>ul>li>p{font-size: 1.5rem;}
-        .question>div:nth-child(2)>ul>li>span{font-size: 1rem;}
+        .question>div:nth-child(2)>ul>li>p{font-size: 1rem;}
+        .question>div:nth-child(2)>ul>li>span{font-size: 0.6rem;}
         .question>div:nth-child(2)>ul>li>a{font-size: 0.5rem;}
         .question>div:nth-child(2)>ul>li:nth-child(3){padding-left: 2rem;}
         .question>div:nth-child(2)>ul>li:nth-child(1){padding-right: 2rem;
@@ -652,28 +663,41 @@ footer>p{padding: 3rem 0 3rem 0;}
         .question>div:nth-child(2)>ul:nth-child(4){display: none;}
 
         .tag{width: 100%;
-             max-width: 350px;
+             max-width: 320px;
              margin: auto;   
         }
         .tag>h2{text-align: center;}
         .tag>ul{width: 100%;
-                max-width: 350px;
+                max-width: 300px;
+                margin: auto;
                 display: flex;
-                align-items: center;
+                flex-wrap: wrap;
                 justify-content: center;
+                
         }
-        .tag>ul>li>a{font-size: 1.5rem;}
+        .tag>ul>li{padding: 4rem 1rem 0 1rem;}
+        .tag>ul>li>a{font-size: 1.3rem;}
         .tag>ul>li:last-child{display: none;}
+        .tag>ul>li:nth-child(6){display: none;}
+        .tag>ul>li:nth-child(7){display: none;}
+        .tag>ul>li:nth-child(8){display: none;}
+        .tag>ul>li:nth-child(9){display: none;}
+        .tag>ul>li:nth-child(10){display: none;}
+        .tag>ul>li:nth-child(11){display: none;}
+        .tag>ul>li:nth-child(12){display: none;}
+        .tag>ul>li:nth-child(13){display: none;}
+        .tag>ul>li:nth-child(14){display: none;}
+        .tag>ul>li:nth-child(15){display: none;}
 
         
 
 
         footer{width: 100%;
-                max-width: 414px;
+                max-width: 375px;
                 margin: auto;
         }
         footer>ul{width: 100%;
-                   max-width: 350px;
+                   max-width: 320px;
                    margin: auto;
         }
         footer>ul>li>a{font-size: 1.4rem;}
