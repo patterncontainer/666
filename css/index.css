@@ -131,13 +131,13 @@ header>div>a>p:hover{color: white;
            background-repeat: no-repeat;
            color: white;
 }
-.mainImage>p:nth-child(1){font-size: 2rem;
+.mainImage>div>p:nth-child(1){font-size: 2rem;
                           padding: 21rem 0 2.3rem 5rem;
 }
-.mainImage>p:nth-child(2){font-size: 3rem;
+.mainImage>div>p:nth-child(2){font-size: 3rem;
                           padding-left: 5rem;
 }
-.mainImage>p:nth-child(3){font-size: 1.5rem;
+.mainImage>div>p:nth-child(3){font-size: 1.5rem;
                           opacity: 58%;
                           padding: 3.7rem 0 7.3rem 5rem;
 }
@@ -506,20 +506,23 @@ footer>p{padding: 3rem 0 3rem 0;}
         .mainImage{width: 100%;
                    max-width: 320px;
                    margin: auto;
-                   height: 370px;
-                   background-size: cover;
+                   height: 300px;
                    border-radius: 30px;
-                   background-position: 62% 0%;
+                   background-position: 61% 0%;
                    display: flex;
                    align-items: center;
                    flex-direction: column;
+                   position: relative;
         }
-        .mainImage>p:nth-child(1){padding: 0;
-                                  padding-top: 29rem;
+        .mainImage>div{position: absolute;
+                       bottom: 2rem;
         }
-        .mainImage>p:nth-child(2){padding: 1.5rem 0 1.5rem 0;}
-        .mainImage>p:nth-child(3){font-size: 1rem;
-                                  padding: 0 0 5rem 0;
+        .mainImage>div>p:nth-child(1){padding: 0;
+                                      padding-top: 23rem;
+        }
+        .mainImage>div>p:nth-child(2){padding: 1.5rem 0 1.5rem 0;}
+        .mainImage>div>p:nth-child(3){font-size: 1rem;
+                                      padding: 0;
         }
 
         .newTag{display: flex;
@@ -576,6 +579,7 @@ footer>p{padding: 3rem 0 3rem 0;}
                                                         align-items: center;
                                                         flex-direction: column;
         }
+        .aboutMovie>div:nth-child(1)>ul:nth-child(1)>li:nth-child(1)>p{padding: 4rem;}
         .aboutMovie>div:nth-child(1)>ul:nth-child(1)>li:nth-child(1)>span{font-size: 1rem;}
         .aboutMovie>div:nth-child(1)>ul:nth-child(1)>li:nth-child(2)>p{padding-top: 3rem;}
         .aboutMovie>div:nth-child(1)>ul:nth-child(1)>li:nth-child(2)>p>img{width: 15rem;
@@ -586,7 +590,7 @@ footer>p{padding: 3rem 0 3rem 0;}
                                                      justify-content: space-between;
                                                      width: 100%;
                                                      max-width: 320px;
-                                                     padding-bottom: 3rem;
+                                                     padding: 2rem 0 2rem 0;
         }
         .aboutMovie>div:nth-child(1)>ul:nth-child(2)>li{padding: 0 1.5rem 0 1.5rem;}
         .aboutMovie>div:nth-child(1)>ul:nth-child(2)>li:nth-child(1)>p{font-size: 1.6rem;}
@@ -608,6 +612,9 @@ footer>p{padding: 3rem 0 3rem 0;}
         .aboutMovie>div:nth-child(2)>div{display: flex;
                                          justify-content: space-between;
                                          width: 170px;   
+        }
+        .aboutMovie>div:nth-child(2)>div>button{padding: 0;
+                                                margin: 0;
         }
         .aboutMovie>div:nth-child(2)>a{color: white;
                                        font-size: 1rem;
