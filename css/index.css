@@ -465,6 +465,7 @@ footer>p{padding: 3rem 0 3rem 0;}
 @media screen and (max-width: 560px){
         body{width: 100%;
              max-width: 560px;
+             margin: auto;
              font-size: 4px;
              display: flex;
              flex-direction: column;   
